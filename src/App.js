@@ -4,10 +4,11 @@ import {
   webLightTheme,
   Button
 } from "@fluentui/react-components";
+import Form from "./Form";
 
 function App() {
   return (
-    <Api/>
+    <Form/>
   );
 }
 
