@@ -1,4 +1,4 @@
-
+import Api from "./Api";
 import {
   FluentProvider,
   webLightTheme,
@@ -7,9 +7,7 @@ import {
 
 function App() {
   return (
-    <FluentProvider theme={webLightTheme}>
-      <Button appearance='primary'>Hello</Button>
-    </FluentProvider>
+    <Api/>
   );
 }
 
